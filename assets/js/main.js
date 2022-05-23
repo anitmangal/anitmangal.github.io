@@ -13,7 +13,12 @@ var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 var player;
-
+var scrheight = 360;
+var scrwidth = 640;
+if (browser.mobile) {
+	scrheight = 180;
+	scrwidth = 320;
+}
 // load the playlist
 function onYouTubeIframeAPIReady() {
 	player = new YT.Player('player', {
