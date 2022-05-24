@@ -1,11 +1,6 @@
-/*
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 // Random Vid
 // This code loads the IFrame Player API code asynchronously.
+
 var tag = document.createElement('script');
 
 tag.src = "https://www.youtube.com/iframe_api";
@@ -19,11 +14,13 @@ if (browser.mobile) {
 	scrheight = 180;
 	scrwidth = 320;
 }
+
+
 // load the playlist
 function onYouTubeIframeAPIReady() {
 	player = new YT.Player('player', {
-		height: 360,
-		width: 640,
+		height: scrheight,
+		width: scrwidth,
 		events: {
 			'onReady': onPlayerReady
 		},
@@ -42,7 +39,6 @@ function onPlayerReady(event) {
 	// see: https://stackoverflow.com/questions/12916017/youtube-api-setshuffle-dont-work
 	player.playVideoAt(num);
 }
-
 
 
 
