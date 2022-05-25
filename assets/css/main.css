@@ -3102,7 +3102,7 @@ input, select, textarea {
 			iframe.iframe {
 				display: inline;
 			}
-			a.link {
+			img.link {
 				display: none;
 			}
 	}
@@ -3158,7 +3158,7 @@ input, select, textarea {
 				display: inline;
 			}
 
-			a.link {
+			img.link {
 				display: none;
 			}
 	}
@@ -3257,7 +3257,7 @@ input, select, textarea {
 				display: none;
 			}
 
-			a.link {
+			img.link {
 				display: inline;
 			}
 	}
