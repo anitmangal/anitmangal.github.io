@@ -26,7 +26,8 @@ function onYouTubeIframeAPIReady() {
 		},
 		playerVars: {
 			listType : 'playlist',
-			list: 'PLl8iUVoOfQIO1vw2-mjsAFT_cjAzlNaet'
+			list: 'PLl8iUVoOfQIO1vw2-mjsAFT_cjAzlNaet',
+			'autoplay': 1
 		}
 	});
 }

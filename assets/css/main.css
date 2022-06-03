@@ -106,13 +106,14 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		//color: #f92c3d;
+		color: #3383ce;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #f92c3d !important;
 			text-decoration: none;
 		}
 
@@ -1839,7 +1840,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #f92c3d;
 		}
 
 	select {
@@ -1944,7 +1945,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #f92c3d;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2069,8 +2070,8 @@ input, select, textarea {
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
-				border: solid 3px rgba(255, 255, 255, 0.5);
-				color: #FFF;
+				border: solid 3px rgba(51, 131, 206, 0.8);
+				color: #f92c3d;
 				content: 'Check it out!';
 				display: inline-block;
 				font-size: 0.8em;
@@ -2229,7 +2230,7 @@ input, select, textarea {
 			}
 
 			ul.labeled-icons li h3 {
-				color: #b2b2b2;
+				color: #3383ce;
 				left: 0;
 				position: absolute;
 				text-align: center;
@@ -2444,7 +2445,7 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 0.35em;
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: #3383ce !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2462,8 +2463,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #f92c3d;
+			color: #f92c3d !important;
 		}
 
 		input[type="submit"]:active,
@@ -2471,8 +2472,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #f92c3d;
+			color: #f92c3d !important;
 		}
 
 		input[type="submit"].icon,
@@ -2515,8 +2516,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color: #f92c3d;
+			border-color: #f92c3d;
 			color: #ffffff !important;
 		}
 
@@ -2648,19 +2649,19 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(51, 131, 206, 1);
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
-		font-size: 0.8em;
+		color: rgba(249, 44, 61, 1);
+		font-size: 1em;
 		list-style: none;
 		margin: 1em 0 0 0;
 		padding: 0;
 	}
 
 		#footer .copyright li {
-			border-left: solid 1px rgba(255, 255, 255, 0.25);
+			border-left: solid 1px rgba(51, 131, 206, 1);
 			display: inline-block;
 			line-height: 1em;
 			margin-left: 0.75em;
@@ -2705,15 +2706,15 @@ input, select, textarea {
 	-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 	-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 	transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-	background-color: #ffffff;
+	background-color : rgba(255,255,255, 0.6);
 	color: #636363;
 	position: relative;
-	min-width: 40%;
-	width: 75%;
+	min-width: 20%;
+	width: 55%;
 	max-width: 90%;
-	margin-left: 25%;
+	margin-left: 50%;
+	right: 1em;
 	top: 4em;
-	background-color: #f7f7f7;
 	border-top-left-radius: 0.25em;
 	border-top-right-radius: 0.25em;
 	cursor: default;
@@ -2721,15 +2722,15 @@ input, select, textarea {
 }
 
 	#nav input, #nav select, #nav textarea {
-		color: #636363;
+		color: #f92c3d;
 	}
 
 	#nav a:hover {
-		color: #636363;
+		color: #f92c3d;
 	}
 
 	#nav strong, #nav b {
-		color: #636363;
+		color: #f92c3d;
 	}
 
 	#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
