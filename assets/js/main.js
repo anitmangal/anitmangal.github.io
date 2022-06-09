@@ -39,6 +39,7 @@ function onPlayerReady(event) {
 	// the timeout is set because of a bug with the youtube API. if you do any of this line without it, it won't affect anything
 	// see: https://stackoverflow.com/questions/12916017/youtube-api-setshuffle-dont-work
 	player.playVideoAt(num);
+	player.pauseVideo();
 }
 
 
