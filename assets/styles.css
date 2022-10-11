@@ -213,7 +213,7 @@ nav {
                 box-shadow: rgba(200, 200, 200, 0.3) 5px 5px 5px 5px;
                 margin: 20px 20px;
                 border-radius: 5px;
-                width: 300px;
+                width: 20%;
                 flex-grow: 0;
                 flex-shrink: 0;
                 padding: 5px 20px 20px 20px;
@@ -408,7 +408,7 @@ nav {
 
 @media only screen and (orientation:portrait) {
     .homepage {
-        height: 600px;
+        height: 1200px;
     }
 
     .homepage::before {
@@ -416,9 +416,13 @@ nav {
     }
 
     .homepage-content div {
-        font-size: 18px;
-        padding: 0px 10%;
+        font-size: 25px;
+        margin: 100px 10%;
     }
+
+        .homepage h1 {
+            font-size: 100px;
+        }
 
     .topnav ul {
         display: none;
@@ -446,18 +450,37 @@ nav {
     }
 
     .topnav.responsive ul li a {
-        padding: 20px 180px;
+        font-size: 25px;
+        padding: 20px 420px;
     }
 
-    .projects {
-        height: 500px;
+    .about {
+        height: 800px;
+        padding: 35% 0 0 0;
     }
+    
+        .about h1 {
+            font-size: 100px;
+        }
+
+        .about p {
+            font-size: 30px;
+        }
+
+    .projects {
+        height: 1100px;
+    }
+
+        .projects h1 {
+            font-size: 90px;
+        }
 
         .cards {
             flex-direction: column;
         }
             .card {
-                padding: 10px;
+                width: 80%;
+                padding: 30px;
                 margin-left: auto;
                 margin-right: auto;
             }
@@ -473,7 +496,7 @@ nav {
                 width: 40%;
                 height: auto;
                 margin: 2% 5%;
-                max-height: 100px;
+                max-height: 200px;
                 flex-grow: 0;
                 flex-shrink: 0;
             }
@@ -489,15 +512,58 @@ nav {
                 flex-shrink: 0;
             }
 
-    .contactme {
-        width: 100%;
-        flex-direction: column;
-        text-align: center;
+                .cardTopdesc h3 {
+                    font-size: 50px;
+                }
+
+                .cardTopdesc p {
+                    font-size: 40px;
+                }
+
+            .card .desc p {
+                font-size: 15px;
+            }
+    .contact {
+        
+    }
+        .contact h1 {
+            font-size: 100px;
+        }
+
+        .contactme {
+            width: 100%;
+            flex-direction: column;
+            text-align: center;
+        }
+
+            .contactme .left, .contactme .right {
+                width: 96%;
+                flex-basis: 100%;
+                margin: 5% 2%;
+                font-size: 30px;
+            }
+
+                input[type=number], input[type=email], textarea {
+                    font-size: 25px;
+                }
+
+    .footer {
+        height: 200px;
     }
 
-    .contactme .left, .contactme .right {
-        width: 96%;
-        flex-basis: 100%;
-        margin: 5% 2%;
-    }
+        .footer .icon {
+            font-size: 35px;
+        }
+
+        .footer button {
+            margin: 20px 0 10px 0;
+        }
+
+        .footer button a {
+            font-size: 20px;
+        }
+
+        .footer p {
+            font-size: 25px;
+        }
 }
