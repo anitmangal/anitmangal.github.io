@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Anit Mangal</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <section class="homepage" id="home">
+        <div class="homepage-content">
+            <h1>Anit Mangal</h1>
+            <div>I am a second-year undergraduate student of the department of Computer Science and Engineering enrolled in its B. Tech. course at IIT Kharagpur.</div>
+        </div>
+    </section>
+    <nav class="topnav" id="Topnav">
+        <img src="images/Logo.png" height="60" />
+        <a href="javascript:void(0)" class="baricon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT ME</a></li>
+        </ul>
+    </nav>
+    <section class="about" id="about">
+        <h1 style="flex-grow: 2">ANIT.</h1>
+        <p style="flex-grow: 8">Just like the word, I have this never ending urge for learning. I look like a geek by appearance, but I love to interact.</p>
+    </section>
+    <section class="projects" id="projects">
+        <div class="projects-content">
+            <h1>PROJECTS</h1>
+            <ul class="cards">
+                <li class="card">
+                    <div class="cardTop">
+                        <img src="images/hungrytetris.png" />
+                        <div class="cardTopdesc">
+                            <h3>Hungry Tetris</h3>
+                            <p class="projtype">Game Development</p>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p>Here is a hungry spin to Tetris that I had developed for a 10-day long Game Jam. Working on it was great fun!</p>
+                        <a href="https://anitm.itch.io/tetris" target="_blank">Download Here!</a>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="cardTop">
+                        <img src="images/cybersecurity.png" />
+                        <div class="cardTopdesc">
+                            <h3>Cyber Security</h3>
+                            <p class="projtype">Game Development</p>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p>A game made to spread awareness about malicious content and privacy attacks on the internet, completely developed on Scratch! Might be a little challenging to play though.</p>
+                        <a href="https://scratch.mit.edu/projects/686618783" target="_blank">Play Now!</a>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="cardTop">
+                        <img src="images/timeup.jpg" />
+                        <div class="cardTopdesc">
+                            <h3>Time Up</h3>
+                            <p class="projtype">Short Movie</p>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p>My first contribution in a short movie. Filled with suspense, it might catch you by surprise!</p>
+                        <a href="https://youtu.be/rNM_Uf67czI" target="_blank">Watch Now!</a>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="cardTop">
+                        <img src="images/Logo.png" />
+                        <div class="cardTopdesc">
+                            <h3>YouTube Channel</h3>
+                            <p class="projtype">Music Production</p>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <p>Here's me trying to be the next bedroom producer. Tried making a few songs digitally without much knowledge of music theory.</p>
+                        <a href="https://www.youtube.com/channel/UCb07d9aIKwqqvwGlIEo49jA" target="_blank">Check the Channel here!</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1>CONTACT ME</h1>
+        <div class="contactme">
+            <div class="left">
+                I am always excited to meet you, listen to your ideas and learn from your experiences!
+                <br /><br /> <b>Address:</b> B-110, Lala Lajpat Rai Hall of Residence, IIT Kharagpur, Kharagpur, West Bengal - 721302
+            </div>
+            <div class="right">
+                <form>
+                    <input type=email placeholder="Email Address" />
+                    <input type=number placeholder="Contact Number" />
+                    <textarea placeholder="Message"></textarea><br />
+                    <input type=submit value="SUBMIT" />
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-content">
+            <ul class="icon-list">
+                <li><a href="https://www.facebook.com/anit.mangal.1/" class="fa fa-facebook icon" target="_blank"></a></li>
+                <li><a href="https://www.linkedin.com/in/anit-mangal-a5b038223" class="fa fa-linkedin icon" target="_blank"></a></li>
+                <li><a href="https://www.youtube.com/channel/UCb07d9aIKwqqvwGlIEo49jA" class="fa fa-youtube icon" target="_blank"></a></li>
+                <li><a href="https://github.com/anitmangal" class="fa fa-github icon" target="_blank"></a></li>
+                <li><a href="https://twitter.com/anit_mangal" class="fa fa-twitter icon" target="_blank"></a></li>
+            </ul>
+            <button><a href="#home">GO TO TOP</a></button>
+            <p><a href="https://anitmangal.github.io/old-site">Go to Old Site</a> | &copy; Anit Mangal</p>
+        </div>
+    </section>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("Topnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>
